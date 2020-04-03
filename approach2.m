@@ -2,7 +2,7 @@
     close all;
     fontSize = 14;
  
-    
+    %enter the location of the image as in your system
     image=imread('D:\College\Dental Shade Matching 2\Patients Photos\01.jpg');
     %figure,imshow(image);    
     
@@ -79,7 +79,8 @@ lab_Image = applycform(im2double(maskedRgbImage),cform);
 	aChannel = lab_Image(:, :, 2); 
 	bChannel = lab_Image(:, :, 3);
     [rows,columns,numberOfColorBands] = size(image);
-        
+    
+     %enter location of image as per your system   
     Aone=imread('D:\College\Dental Shade Matching 2\Dental Shade Matching\a1.jpg');
     cform = makecform('srgb2lab');
 	aone_Image = applycform(im2double(Aone),cform);
@@ -110,6 +111,7 @@ lab_Image = applycform(im2double(maskedRgbImage),cform);
     subplot(7,3,5);imshow(deltaE, []);
     title('A1','FontSize',fontSize);
     
+    %enter location of image as per your system
     Aone=imread('D:\College\Dental Shade Matching 2\Dental Shade Matching\a2.jpg');
     cform = makecform('srgb2lab');
 	aone_Image = applycform(im2double(Aone),cform);
@@ -140,6 +142,7 @@ lab_Image = applycform(im2double(maskedRgbImage),cform);
     subplot(7,3,6);imshow(deltaE, []);
     title('A2','FontSize',fontSize);
     
+    %enter location of image as per your system
     Aone=imread('D:\College\Dental Shade Matching 2\Dental Shade Matching\a3.jpg');
     cform = makecform('srgb2lab');
 	aone_Image = applycform(im2double(Aone),cform);
@@ -170,6 +173,7 @@ lab_Image = applycform(im2double(maskedRgbImage),cform);
     subplot(7,3,7);imshow(deltaE, []);
     title('A3','FontSize',fontSize);
 
+    %enter location of image as per your system
     Aone=imread('D:\College\Dental Shade Matching 2\Dental Shade Matching\a3_5.jpg');
     cform = makecform('srgb2lab');
 	aone_Image = applycform(im2double(Aone),cform);
@@ -200,6 +204,7 @@ lab_Image = applycform(im2double(maskedRgbImage),cform);
     subplot(7,3,8);imshow(deltaE, []);
     title('A3.5','FontSize',fontSize);
     
+    %enter location of image as per your system
     Aone=imread('D:\College\Dental Shade Matching 2\Dental Shade Matching\a4.jpg');
     cform = makecform('srgb2lab');
 	aone_Image = applycform(im2double(Aone),cform);
@@ -230,6 +235,7 @@ lab_Image = applycform(im2double(maskedRgbImage),cform);
     subplot(7,3,9);imshow(deltaE, []);
     title('A4','FontSize',fontSize);
     
+    %enter location of image as per your system
     Aone=imread('D:\College\Dental Shade Matching 2\Dental Shade Matching\b1.jpg');
     cform = makecform('srgb2lab');
 	aone_Image = applycform(im2double(Aone),cform);
@@ -260,6 +266,7 @@ lab_Image = applycform(im2double(maskedRgbImage),cform);
     subplot(7,3,10);imshow(deltaE, []);
     title('B1','FontSize',fontSize);
     
+    %enter location of image as per your system
     Aone=imread('D:\College\Dental Shade Matching 2\Dental Shade Matching\b2.jpg');
     cform = makecform('srgb2lab');
 	aone_Image = applycform(im2double(Aone),cform);
@@ -290,6 +297,7 @@ lab_Image = applycform(im2double(maskedRgbImage),cform);
     subplot(7,3,11);imshow(deltaE, []);
     title('B2','FontSize',fontSize);
     
+    %enter location of image as per your system
     Aone=imread('D:\College\Dental Shade Matching 2\Dental Shade Matching\b3.jpg');
     cform = makecform('srgb2lab');
 	aone_Image = applycform(im2double(Aone),cform);
@@ -320,6 +328,7 @@ lab_Image = applycform(im2double(maskedRgbImage),cform);
     subplot(7,3,12);imshow(deltaE, []);
     title('B3','FontSize',fontSize);
     
+    %enter location of image as per your system
     Aone=imread('D:\College\Dental Shade Matching 2\Dental Shade Matching\b4.jpg');
     cform = makecform('srgb2lab');
 	aone_Image = applycform(im2double(Aone),cform);
@@ -350,6 +359,7 @@ lab_Image = applycform(im2double(maskedRgbImage),cform);
     subplot(7,3,13);imshow(deltaE, []);
     title('B4','FontSize',fontSize);
     
+    %enter location of image as per your system
     Aone=imread('D:\College\Dental Shade Matching 2\Dental Shade Matching\c1.jpg');
     cform = makecform('srgb2lab');
 	aone_Image = applycform(im2double(Aone),cform);
@@ -380,6 +390,7 @@ lab_Image = applycform(im2double(maskedRgbImage),cform);
     subplot(7,3,14);imshow(deltaE, []);
     title('C1','FontSize',fontSize);
     
+    %enter location of image as per your system
     Aone=imread('D:\College\Dental Shade Matching 2\Dental Shade Matching\c2.jpg');
     cform = makecform('srgb2lab');
 	aone_Image = applycform(im2double(Aone),cform);
@@ -410,6 +421,8 @@ lab_Image = applycform(im2double(maskedRgbImage),cform);
     subplot(7,3,15);imshow(deltaE, []);
     title('C2','FontSize',fontSize);
     
+    
+    %enter location as per your system
     Aone=imread('D:\College\Dental Shade Matching 2\Dental Shade Matching\c3.jpg');
     cform = makecform('srgb2lab');
 	aone_Image = applycform(im2double(Aone),cform);
@@ -440,6 +453,7 @@ lab_Image = applycform(im2double(maskedRgbImage),cform);
     subplot(7,3,16);imshow(deltaE, []);
     title('c3','FontSize',fontSize);
     
+    %enter location as per your system
     Aone=imread('D:\College\Dental Shade Matching 2\Dental Shade Matching\c4.jpg');
     cform = makecform('srgb2lab');
 	aone_Image = applycform(im2double(Aone),cform);
@@ -470,6 +484,7 @@ lab_Image = applycform(im2double(maskedRgbImage),cform);
     subplot(7,3,17);imshow(deltaE, []);
     title('C4','FontSize',fontSize);
     
+    %enter location as per your system
     Aone=imread('D:\College\Dental Shade Matching 2\Dental Shade Matching\d2.jpg');
     cform = makecform('srgb2lab');
 	aone_Image = applycform(im2double(Aone),cform);
@@ -500,6 +515,8 @@ lab_Image = applycform(im2double(maskedRgbImage),cform);
     subplot(7,3,18);imshow(deltaE, []);
     title('D2','FontSize',fontSize);
     
+    
+    %enter location as per your system
     Aone=imread('D:\College\Dental Shade Matching 2\Dental Shade Matching\d3.jpg');
     cform = makecform('srgb2lab');
 	aone_Image = applycform(im2double(Aone),cform);
@@ -530,6 +547,8 @@ lab_Image = applycform(im2double(maskedRgbImage),cform);
     subplot(7,3,19);imshow(deltaE, []);
     title('D3','FontSize',fontSize);
     
+    
+    %enter location as per your system
     Aone=imread('D:\College\Dental Shade Matching 2\Dental Shade Matching\d4.jpg');
     cform = makecform('srgb2lab');
 	aone_Image = applycform(im2double(Aone),cform);
